@@ -1,0 +1,9 @@
+export const Login = "/login";
+export const SignUp = "/signup";
+export const MainPage = "/";
+export const QuizPage = "/quiz";
+export const FormQuizPage = "/form-quiz";
+export const QuizIdParam = "quizId";
+export const HostPage = "/host";
+export const RoomIdParam = "roomId";
+export const PlayQuizPage = "play-quiz";

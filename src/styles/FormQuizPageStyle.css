@@ -1,0 +1,63 @@
+body{ 
+    background: url(../images/background-image.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.root-form{
+    width: 100%;
+}
+
+.paragraph-form-wrapper{
+    margin-top: -7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-form-type{
+    -webkit-text-stroke: 4px #fc4a1a;
+    color: white;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+}
+
+.quiz-details-wrapper{
+    background-color: rgba(242, 242, 242, 0.7);
+    padding-bottom: 2.5rem;
+    border-radius: 30px;
+    border-color: #fc4a1a;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: rgb(36, 247, 29) 0px 20px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.295) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 35%;
+    margin-left: 32%;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+.quiz-details-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.quiz-details-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.wrapper-buttons-formquiz{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    padding-left: 32%;
+}

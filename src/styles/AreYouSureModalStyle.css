@@ -1,0 +1,36 @@
+.root-areyousure-modal{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 2.5rem;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 35%;
+}
+
+.paragraph-areyousuremodal-wrapper{
+    margin-top: -7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-areyousuremodal{
+    margin-left: 3%;
+    color: black;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+}
+
+.buttons-areyousuremodal-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

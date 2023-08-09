@@ -1,0 +1,63 @@
+body{ 
+    background: url(../images/background-image.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.root-quiz{
+    width: 100%;
+}
+
+.div-logout-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paragraph-wrapper{
+    margin-top: -7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-quizzes{
+    -webkit-text-stroke: 4px #fc4a1a;
+    color: white;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+}
+
+.quizzes-wrapper{
+    background-color: rgba(242, 242, 242, 0.7);
+    border-radius: 30px;
+    border-color: #fc4a1a;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: rgb(36, 247, 29) 0px 20px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.295) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 65%;
+    margin-left: 17%;
+    max-height: 465px;
+    min-height: 465px;
+    margin-top: -5%;
+    overflow-y: scroll;
+    padding-bottom: 18px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.quizzes-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.quizzes-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
